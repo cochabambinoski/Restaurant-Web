@@ -45,7 +45,7 @@ const createnav = () => {
 };
 
 const contents = () => {
-  const element = document.createElement('div');
+  const element = document.getElementById('content').innerHTML;
   element.classList.add('content');
   element.id = 'content';
 
