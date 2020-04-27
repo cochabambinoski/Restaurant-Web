@@ -35,10 +35,10 @@ export const menuContainer = () => {
   const container = document.createElement('div');
   container.id = 'content_menu';
   container.classList.add('row', 'hide');
-  container.appendChild(createCards(cardText, "Classic Taco", FoodImage1));
-  container.appendChild(createCards(cardText, "Chicken Taco", FoodImage2));
-  container.appendChild(createCards(cardText, "Mix Taco", FoodImage3));
-  container.appendChild(createCards(cardText, "Bacon taco mix", FoodImage4));
+  container.appendChild(createCards(cardText, 'Classic Taco', FoodImage1));
+  container.appendChild(createCards(cardText, 'Chicken Taco', FoodImage2));
+  container.appendChild(createCards(cardText, 'Mix Taco', FoodImage3));
+  container.appendChild(createCards(cardText, 'Bacon taco mix', FoodImage4));
 
   return container;
 };

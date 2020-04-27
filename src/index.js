@@ -1,5 +1,3 @@
-import _ from 'lodash';
-
 import { welcomeContent } from './home';
 import { actionButton, cover } from './events';
 import { menuContainer } from './menu';
@@ -33,7 +31,7 @@ const createnav = () => {
   const element = document.createElement('nav');
   const logo = document.createElement('div');
   logo.classList.add('logo');
-  logo.innerHTML = "El Restaurante";
+  logo.innerHTML = 'El Restaurante';
   const nav = document.createElement('ul');
   nav.classList.add('nav', 'nav-tabs', 'justify-content-end');
   nav.appendChild(createButtons('Home', true));

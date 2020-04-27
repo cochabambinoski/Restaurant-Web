@@ -4,7 +4,7 @@ const createWelcome = () => {
   column.id = 'welcome';
   const title = document.createElement('h1');
   const text = document.createElement('p');
-  text.innerHTML = "We are really proud to be the best Latin American restaurant in the town.";
+  text.innerHTML = 'We are really proud to be the best Latin American restaurant in the town.';
   text.id = 'page_text';
   title.innerHTML = "Welcome to our 'Restaurante'";
   title.id = 'page_title';
